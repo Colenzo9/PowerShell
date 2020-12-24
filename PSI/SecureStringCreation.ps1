@@ -1,0 +1,1 @@
+﻿Read-Host -AsSecureString | ConvertFrom-SecureString | Out-File 'C:\Jones IT\PSI\mysecurestring.txt' -Force
