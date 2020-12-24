@@ -4,3 +4,5 @@ $password = Get-Content 'C:\Jones IT\PSI\mysecurestring.txt' | ConvertTo-SecureS
 $cred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
 
 Connect-AzureAD -Credential $cred
+
+#test
